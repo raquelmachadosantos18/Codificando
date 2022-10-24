@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300;400;500&display=swap');
+
+body {
+    font-family: 'Roboto mono'; /*Fonte usada em toda a pagina*/
+    box-sizing: content-box; 
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    background-color: black;
+    background-image: url("img/bug2.png") ;
+}
+
+
+h1 {
+    font-family: 'Roboto Mono', sans-serif;
+    color: rgb(21, 255, 0);
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    padding: 2%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    border: 1px solid rgb(21, 255, 0);
+    border-radius: 5px;
+    padding: 5%;
+    width: auto;
+}
+
+#codigo {
+    font-family: 'Roboto Mono', sans-serif;
+    color: rgb(21, 255, 0);
+    margin: 10px; /*margin da caixa de selecionar o tipo de codificação*/
+    background-color: black;
+}
+
+.divChave {
+    font-family: 'Roboto Mono', sans-serif;
+    font-size: 12px;
+    align-items: center;
+    color: rgb(21, 255, 0);
+    display: none;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    color: (21, 255, 0);
+}
+
+form {
+    display: flex;
+    background-color: black;
+    flex-direction: column;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 5%;
+    border: 1px solid rgb(21, 255, 0);
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px rgb(21, 255, 0);
+}
+
+.radioCod {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 10px;
+    color: rgb(21, 255, 0); ;
+}
+
+#botaoResultado {
+    display: none;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 20px;
+}
+
